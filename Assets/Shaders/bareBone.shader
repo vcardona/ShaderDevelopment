@@ -15,6 +15,9 @@ Shader "ShaderDev/BareBone"
     Subshader
     {
     
+        Tags {"Queue" = "Transparent" "IgnoreProjector" = "True" "RenderType" = "Transparent"}
+        //Definición Tags.
+    
         Pass
         {
         
